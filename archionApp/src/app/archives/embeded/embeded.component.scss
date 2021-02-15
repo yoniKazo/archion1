@@ -1,0 +1,33 @@
+.scroll-embeded {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 65vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: -15px;
+    direction: ltr;
+  }
+  .title-update {
+    height: 34px;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    background-color: #285c7e !important;
+
+    color: #ffffff !important;
+    font-weight: bold;
+  }
+
+  .cursor-p
+  {
+      cursor: pointer;
+      padding-left: 20px;
+  }
+  .align-l
+  {
+    text-align: left;
+  }
+  .p-t-4
+  {
+    padding-top: 4px;
+  }

@@ -1,0 +1,46 @@
+
+  <div  class="no-print p-l-5" *ngIf="!ars.showArchivesLegend">
+  
+  
+    <div *ngIf="ars.columnDefs!= null && ars.archivesDataReport != null"  class="p-b-10">
+        <input type="text" [(ngModel)]="freeText" placeholder='חפש' class="form-control" (keyup)="onFilterTextBoxChanged()" />
+
+        <button type="button"  (click)="onBtExport()"   class="ag-grid-export-excel float-l" >
+            <img src="../../../assets/images/icon_excel.png"/>
+            יצוא לאקסל</button> 
+       </div>
+    <div class="archives-data" >
+    
+  
+  <ag-grid-angular
+      #agGrid
+      style="width: 100%; height: 68vh;"
+      class="ag-theme-balham"
+      [rowData]="ars.archivesDataReport"
+      [columnDefs]="ars.columnDefs"
+      [headerHeight]="50"
+      [enableRangeSelection]="false"
+      [animateRows]="true"
+      [modules]="ars.modules"
+      [frameworkComponents]="ars.frameworkComponents"
+      [defaultColDef]="ars.defaultColDef"
+      rowSelection="multiple"
+      [excelStyles]="excelStyles"
+    
+      [defaultColDef]="defaultColDef"
+      [enableRtl]="true"
+     
+      
+     
+      (gridReady)="onGridReady($event)"
+     
+      >
+  </ag-grid-angular>
+  </div>
+  </div>
+  <div *ngIf="ars.showEmbeded">
+    <mof-pop-up [isOpen]="ars.showEmbeded">
+      <mof-embeded></mof-embeded>
+    </mof-pop-up>
+</div>
+  

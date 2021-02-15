@@ -1,0 +1,44 @@
+header { 
+   // height: 84px;
+    background-color: #285c7e ;
+    font-size: 190%;
+    color: #ffffff ;
+    font-weight: bold;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+
+  @media print {     
+    .no-print {
+        display: none !important;
+    }
+}
+  .mar-l12
+  {
+    margin-left: 12px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   
+    grid-template-columns:80% 20%;
+    grid-template-areas:
+    "start-header end-header"
+    
+  }
+  .start-header {
+    grid-area: start-header;
+  }
+  
+  .end-header {
+    grid-area: end-header;
+    position: relative;
+   
+    text-align: left;
+
+  }

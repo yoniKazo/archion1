@@ -1,0 +1,35 @@
+@media print {     
+  .no-print {
+      display: none;
+  }
+}
+footer {
+    background-color: #063b49;
+    color: #ffffff ;
+    text-align: center;
+    font-size: 14px;
+    height: 32px;
+    padding: 0 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prl-10
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .footer-contain{
+  
+    padding: 5px;
+  }
+  
+  
+
+
+
+

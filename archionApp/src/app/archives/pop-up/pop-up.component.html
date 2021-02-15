@@ -1,0 +1,13 @@
+<div class="shade" ngClass="zIndex ? 'shade1' : ''" [@openCloseShade]="isOpen ? 'open' : 'closed'">
+  
+</div>
+<div class="pop-up" ngClass="zIndex ? 'pop-up1' : ''" [@openClose]="isOpen ? 'open' : 'closed'">
+  <div class="pop-up-box" >
+ 
+    <div class="pop-up-content" >
+
+       <ng-content></ng-content> 
+
+    </div>
+  </div>
+</div>

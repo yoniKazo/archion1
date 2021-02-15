@@ -1,0 +1,1 @@
+{"version":3,"file":"IController.js","sourceRoot":"","sources":["../../src/api/IController.ts"],"names":[],"mappings":";;;AAAA,qCAAiC;AAEjC,MAAsB,WAAW;IAC7B;QACI,IAAI,CAAC,MAAM,GAAG,gBAAM,EAAE,CAAC;QACvB,IAAI,CAAC,eAAe,CAAC,IAAI,CAAC,MAAM,CAAC,CAAC;IACtC,CAAC;IAOS,MAAM,CAAC,IAAI,CAAa,UAAe;QAC7C,OAAO,UAAwB,CAAC;IACpC,CAAC;CACJ;AAdD,kCAcC"}

@@ -1,0 +1,39 @@
+.header-section {
+    grid-area: header;
+  }
+  .section-container {
+    grid-area: main-container;
+  }
+ 
+  .footer-section {
+    grid-area: footer;
+  }
+  .wrapper {
+      
+   display: grid;
+   grid-gap: 20px;
+    grid-template-areas:
+      "header"
+      "main-container" 
+      "footer"
+  }
+  .loading {
+    direction: ltr;
+    opacity: 0.5;
+    background-color: #1b18bc40;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+    // grid-template-columns: 200px 200px 200px;
+    // grid-template-areas:
+    // "header  header  header"
+    // "sidebar content content"
+    // "footer  footer  footer";
+    // background-color: #fff;
+    // color: #444;

@@ -1,0 +1,19 @@
+
+@media print {     
+    .no-print {
+        display: none;
+    }
+}
+  .active
+  {
+      background-color: #285c7e ;
+      color:white;
+      font-weight: bold;
+  }
+  .nav-link
+  {
+     cursor: pointer;
+      padding-right: 15px;;
+      padding-top:5px ;
+      padding-bottom:5px ;
+  }

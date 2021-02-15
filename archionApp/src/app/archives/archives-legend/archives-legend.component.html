@@ -1,0 +1,31 @@
+
+<div *ngIf="arc.showArchivesLegend">
+
+   
+    <div  class=" grid-container">
+     
+        <div  role="columnheader" class="v-grid-title pt-1 pb-1">
+            שם ועדה
+        </div>
+        <div  role="columnheader" class="v-grid-title pt-1 pb-1">
+            תאור פורום
+        </div>
+        
+      
+    </div>
+    <div style="max-height:65vh ;overflow-y:auto;overflow-x: hidden;" >
+    <div *ngFor="let al of arc.archivesLegendData" rol="rowgroup"   >
+
+      <div class="grid-container">
+         <div  class="v-grid-column  pt-1 pb-1">
+            {{al.shortName}}
+         </div>
+          <div  class="col v-grid-column  pt-1 pb-1">
+            {{al.name}}
+          </div>
+        
+    </div>
+
+</div>
+
+</div>

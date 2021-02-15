@@ -1,0 +1,113 @@
+{
+  
+ 
+  "committee": [
+    {
+      "key": "CommityNameAndNum",
+      "hebrew_value": "שם ועדה/מס. ועדה",
+      "type":"string"
+     
+    },
+    {
+      "key": "CommityDecsionDate",
+      "hebrew_value": "תאריך החלטת ועדה",
+      "type":"date"
+    },
+   
+    {
+      "key": "GovDecision",
+      "hebrew_value": "מס. החלטת ממשלה",
+      "type":"string"
+    },
+    {
+      "key": "GovDecisionDate",
+      "hebrew_value": "תאריך החלטת ממשלה",
+      "type":"date"
+    },
+    {
+      "key": "DecisionTitle",
+      "hebrew_value": "כותרת החלטה",
+      "type":"string"
+    }
+  
+  ],
+  "governmentDecision": [
+    {
+      "key": "GovDecision",
+      "hebrew_value": "מס. החלטת ממשלה",
+      "type":"string"
+    },
+    
+    {
+      "key": "GovDecisionDate",
+      "hebrew_value": "תאריך החלטת ממשלה",
+      "type":"date"
+    },
+    {
+      "key": "CommityNumber",
+      "hebrew_value": "מס. החלטת ועדה",
+      "type":"string"
+     
+    },
+    {
+      "key": "CommityDecsionDate",
+      "hebrew_value": "תאריך החלטת ועדה",
+      "type":"date"
+    },
+    
+    {
+      "key": "CommityNameAndNum",
+      "hebrew_value": "שם ועדה",
+      "type":"string"
+    },
+    {
+      "key": "DecisionTitle",
+      "hebrew_value": "כותרת החלטה",
+      "type":"string"
+    },
+    {
+      "key": "SecriteryNum",
+      "hebrew_value": "מזכירות",
+      "type":"string"
+    }
+   
+  ]
+  ,
+  "committeeDecisions": [
+    {
+      "key": "CommityNumber",
+      "hebrew_value": "מס. החלטת ועדה",
+      "type":"string"
+     
+    },
+    {
+      "key": "CommityNameAndNum",
+      "hebrew_value": "שם ועדה",
+      "type":"string"
+    },
+    
+  
+    {
+      "key": "CommityDecsionDate",
+      "hebrew_value": "תאריך החלטת ועדה",
+      "type":"date"
+    },
+    {
+      "key": "GovDecision",
+      "hebrew_value": "מס. החלטת ממשלה",
+      "type":"string"
+    },
+    {
+      "key": "GovDecisionDate",
+      "hebrew_value": "תאריך החלטת ממשלה",
+      "type":"date"
+    },
+  
+    {
+      "key": "DecisionTitle",
+      "hebrew_value": "כותרת החלטה",
+      "type":"string"
+    }
+  
+  ]
+}

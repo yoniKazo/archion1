@@ -1,0 +1,190 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Task APi",
+        "description": "A description of your project",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "schemes": ["http"],
+    "host": "localhost:8081",
+    "basePath": "/api",
+
+    "paths" : {
+        "/Archives" : {
+            "get" : {
+                "summary" : "Get all archives",
+                "description": "Get allarchives",
+                "produces": ["application/json"],
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Archives"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value",
+                        "schema": {
+                            "$ref": "#/definitions/InvalidResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "/ArchivesLegend" : {
+            "get" : {
+                "summary" : "Get all ArchivesLegend",
+                "description": "Get all archives",
+                "produces": ["application/json"],
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                       
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/ArchivesLegend"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value",
+                        "schema": {
+                            "$ref": "#/definitions/InvalidResponse"
+                        }
+                    }
+                }
+            }
+        }
+    
+     
+    }, 
+    "definitions": {
+        "ArchivesLegend":{
+            "type": "object",
+            "properties": {
+                
+                "shortName": {
+                    "type": "string"
+                },
+                "Name": {
+                    "type": "string"
+                }
+            }
+        },
+        "Archives":{
+           
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+               },
+                "UNID": {
+                    "type": "string"
+                },
+                "CommityNameAndNum": {
+                    "type": "string"
+                },
+                "CommityName": {
+                    "type": "string"
+                },
+                "CommityNumber": {
+                    "type": "float"
+                },
+                "CommityDecsionDate_": {
+                    "type": "string"
+                },
+                "ForumDescription1": {
+                    "type": "string"
+                },
+                "ForumDescription": {
+                    "type": "string"
+                },
+                "GovDecision": {
+                    "type": "float"
+                },
+                "GovDecisionDate": {
+                    "type": "string"
+                },
+                "DecisionTitle": {
+                    "type": "string"
+                },
+                "OpeningText": {
+                    "type": "string"
+                },
+                "DecisionText": {
+                    "type": "string"
+                },
+                "AppealText": {
+                    "type": "string"
+                },
+                "DecisionType": {
+                    "type": "string"
+                },
+                "DecisionNumAndPrimeName": {
+                    "type": "string"
+                },
+                "SecriteryNum": {
+                    "type": "float"
+                },
+                "Embeded": {
+                    "type": "string"
+                }
+            }
+        },
+        "todosResponse": {
+            "type": "object",
+            "properties": {
+                "id": {
+                     "type": "integer"
+                },
+                "task": {
+                    "type": "string"
+                },
+                "assignee": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                }
+            }
+        },
+        
+        "Task": {
+            "type": "object",
+            "properties": {
+                "task": {
+                    "type": "string"
+                },
+                "assignee": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                }
+            }
+        },
+        "InvalidResponse": {
+            "type": "object",
+            "properties": {
+                "statusCode": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                }
+            }
+
+        }
+    }
+}
+    

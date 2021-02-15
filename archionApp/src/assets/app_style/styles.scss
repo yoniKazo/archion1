@@ -1,0 +1,48 @@
+//@import "~bootstrap/dist/css/bootstrap.css";
+
+html,
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  direction: rtl !important;
+  text-align: right;
+  margin:0;
+}
+
+.right-gutters {
+  > .col,
+  > [class*="col-"] {
+    padding-left: 0;
+  }
+}
+
+@import "./node_modules/@ag-grid-enterprise/all-modules/dist/styles/ag-grid.scss";
+@import "./node_modules/@ag-grid-enterprise/all-modules/dist/styles/ag-theme-balham/sass/ag-theme-balham.scss";
+
+.ag-theme-balham {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 16px !important;
+  color: #2d2d2d !important;
+}
+
+.ag-theme-balham .ag-header{
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 16px !important;
+  color: #2d2d2d !important;
+
+  .ag-theme-balham .ag-break-title .ag-header-cell-label .ag-header-cell-text {
+    overflow: visible;
+    white-space: normal;
+    line-height: normal;
+    font-family: almoniR !important;
+    font-size: 15px !important;
+  }
+  
+  .ag-theme-balham .ag-rtl .ag-group-child-count {
+    margin-left: unset;
+    margin-right: 2px;
+    display: none !important;
+  }
+}
+

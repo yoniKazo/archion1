@@ -1,0 +1,26 @@
+.min-h
+{
+    min-height: calc(100vh - 14vh);
+}
+
+header { 
+    // height: 84px;
+     background-color: #285c7e ;
+     font-size: 190%;
+     color: #ffffff ;
+     font-weight: bold;
+   padding: 20px;
+     
+   }
+ 
+   .wrapper {
+     display: grid;
+    
+     grid-template-areas:
+     "main"
+     
+   }
+   .main{
+     grid-area: main;
+   }
+   

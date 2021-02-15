@@ -1,0 +1,22 @@
+<!-- <div class="container-fluid">
+<mof-header></mof-header>
+ 
+<mof-main-container></mof-main-container>
+<mof-footer></mof-footer>
+</div> -->
+<div *ngIf="loadingMask" class="loading">
+    <app-loader></app-loader>
+  </div>
+
+<div class="wrapper">
+    <header class="header-section">
+        <mof-header></mof-header>
+    </header>
+    <section class="main-container">
+        <mof-main-container></mof-main-container>
+    </section>
+   
+    <footer class="footer-section">
+        <mof-footer></mof-footer>
+    </footer>
+  </div>

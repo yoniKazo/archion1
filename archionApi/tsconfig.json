@@ -1,0 +1,103 @@
+{
+  "compilerOptions": {
+   
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./build",               
+    "rootDir": "./src",  
+  "resolveJsonModule": true,
+
+  
+  },
+  "lib": ["es2015"]
+}
+
+
+// {
+//   "compilerOptions": {
+
+  
+
+
+
+//     "target": "esnext",
+//     "module": "commonjs",
+//     "outDir": "./build",
+//     "declaration": true,
+//     "strict": true,
+//     "sourceMap": true,
+//     // "noImplicitAny": false,
+//     "noImplicitAny": true,
+//     "skipLibCheck": true,
+//     "skipDefaultLibCheck": true,
+//     // "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "allowJs": false,
+//     "experimentalDecorators": true,
+//     "resolveJsonModule": true,
+//     "strictNullChecks": true,
+//     "lib": [
+//       "es2018"
+//     ],
+//     // "jsx": "react",
+//     "typeRoots": [
+//       "./node_modules/@verdaccio/types",
+//       "./node_modules/@types"
+//     ]
+//   },
+//   "include": [
+//     "src/**/*.ts"
+//   ]
+// }
+
+
+// {
+//     "compilerOptions": {
+     
+//     //  "module": "commonjs",
+//       "esModuleInterop": true,
+//       "target": "es6",
+//       "allowJs": true,
+//       "moduleResolution": "node",
+//       "sourceMap": true,
+//       "outDir": "./build/",  
+               
+//       // "rootDir": "./src",  
+//     "resolveJsonModule": true,
+//     "typeRoots": [
+//       "node_modules/@types"
+//     ],
+   
+//     "noImplicitAny": true,
+//     "module": "es6",
+//     "lib": [
+//       "es2017",
+//       "dom"
+//     ]
+    
+//     },
+//     //"include": [ "src/**/*" ],
+//     // "lib": ["es2015"]
+//   }
+
+// {
+//   "compilerOptions": {
+   
+//     "module": "commonjs",
+//     "esModuleInterop": true,
+//     "target": "es6",
+//     "moduleResolution": "node",
+//     "sourceMap": true,
+//     "outDir": "./build",               
+//     "rootDir": "./src",  
+//   "resolveJsonModule": true,
+
+  
+//   },
+//   "lib": ["es2015"]
+// }
+
+  
