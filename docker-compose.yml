@@ -10,3 +10,7 @@ services:
     build: .\archionApi
     ports: 
       - "3000:3000"
+
+
+  # docker-compose up
+  # https://scotch.io/tutorials/create-a-mean-app-with-angular-2-and-docker-compose#toc-dockerizing-angular-2-client-app
